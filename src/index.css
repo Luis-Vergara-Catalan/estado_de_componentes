@@ -1,0 +1,45 @@
+#root {
+  border:0px solid;
+  border-radius: 30px;
+    background-color:white;
+}
+
+a {
+  font-weight: 500;
+  color: black;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: gray;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(40deg, rgb(107, 243, 103), rgb(245, 248, 70));
+}
+
+h1 {
+  font-size: 3em;
+  margin: 10px 30px;
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 34px;
+}
+
+p {
+  padding: 10px;
+}
